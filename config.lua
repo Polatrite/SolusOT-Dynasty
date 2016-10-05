@@ -1,11 +1,11 @@
 -- Combat settings
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
-worldType = "pvp"
+worldType = "no-pvp"
 hotkeyAimbotEnabled = true
 protectionLevel = 1
 killsToRedSkull = 3
 killsToBlackSkull = 6
-pzLocked = 60000
+pzLocked = 10000
 removeChargesFromRunes = true
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
@@ -15,16 +15,16 @@ expFromPlayersLevelRange = 75
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "127.0.0.1"
+ip = "45.55.133.23"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to The Forgotten Server!"
-onePlayerOnlinePerAccount = true
+motd = "Welcome to SolusOT: Dynasty!"
+onePlayerOnlinePerAccount = false
 allowClones = false
-serverName = "Forgotten"
+serverName = "SolusOT: Dynasty"
 statusTimeout = 5000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -46,8 +46,8 @@ timeBetweenExActions = 1000
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
-mapName = "forgotten"
-mapAuthor = "Komic"
+mapName = "Nutopia"
+mapAuthor = "Nugo/Solus/Eventide/Maerar"
 
 -- Market
 marketOfferDuration = 30 * 24 * 60 * 60
@@ -57,9 +57,9 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "forgottenserver"
-mysqlPass = ""
-mysqlDatabase = "forgottenserver"
+mysqlUser = "dynastyadmin"
+mysqlPass = "Born1290!20"
+mysqlDatabase = "dynastyadmin"
 mysqlPort = 3306
 mysqlSock = ""
 
@@ -68,20 +68,20 @@ allowChangeOutfit = true
 freePremium = false
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
-emoteSpells = false
+emoteSpells = true
 classicEquipmentSlots = false
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 5
-rateSkill = 3
-rateLoot = 2
-rateMagic = 3
+rateExp = 12
+rateSkill = 5
+rateLoot = 1
+rateMagic = 5
 rateSpawn = 1
 
 -- Monsters
 deSpawnRange = 2
-deSpawnRadius = 50
+deSpawnRadius = 75
 
 -- Stamina
 staminaSystem = true

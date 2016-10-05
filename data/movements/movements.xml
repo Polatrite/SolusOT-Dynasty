@@ -448,6 +448,9 @@
 	<movevent event="Equip" itemid="22516" level="200" slot="ring" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="22516" slot="ring" function="onDeEquipItem" />
 
+	<movevent event="Equip" itemid="2124" level="0" slot="ring" script="mana_devourer.lua" />
+	<movevent event="DeEquip" itemid="2124" slot="ring" script="mana_devourer.lua" />
+
 	<!-- Helmets -->
 	<movevent event="Equip" itemid="5461" slot="head" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="5461" slot="head" function="onDeEquipItem" />
